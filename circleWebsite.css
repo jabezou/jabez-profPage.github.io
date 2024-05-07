@@ -1,0 +1,134 @@
+
+
+body {
+  background-color: rgb(245,245,245);
+  margin: 0;
+}
+
+.webpage-margin {
+  margin: 100px 50px 0px;
+}
+
+.intro-header {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: block;
+  font-size: 60px;
+  font-family: "Dennis Sans", sans-serif;
+  font-weight: 200;
+  width: 800px;
+}
+
+.intro-header-pic-container {
+  display: flex;
+  height: 240px;
+  margin-left: 60px; 
+}
+
+.intro-header-pic-container2 {
+  display: flex;
+  height: 240px;
+  flex-direction: column;  
+  margin-left: 1px;
+  align-items: center;
+  justify-items: center;
+}
+
+
+.intro-header-pic-sec1 {
+  border-radius: 200px;
+}
+
+.intro-header-pic-sec2 {
+  border-radius: 200px;
+  margin-bottom: 10px;
+}
+
+.bottom-pic {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 0;
+}
+
+.top-pic {
+  height: 120px;
+  width: 120px;
+}
+
+.name {
+  font-weight: 500;
+  color: rgb(47, 47, 197);
+  font-size: 68px;
+}
+
+.about-me{
+  font-family: "Dennis Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 44px;
+  margin-bottom: 85px;
+}
+
+.fun-facts {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  column-gap: 140px;
+}
+
+.fun-fact-topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background-color: rgb(255, 136, 0);
+  font-weight: 200;
+  color: black;
+}
+
+.transition-container {
+  position: relative;
+}
+
+.fun-fact-topic:hover {
+  transition: opacity 0.3s ease-in;
+}
+
+.transition-pic {
+  opacity: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 400px;
+  transition: ease-in 0.3s;
+}
+
+.transition-pic:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.contact-details {
+  display: flex;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #d6d3d3;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  height: 60px;
+  width: 100%;
+}
+
+.contact-button {
+  border: none;
+  background-color: transparent;
+}
+
+.contact-button > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: blue;
+}
