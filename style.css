@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(245,245,245);
+  background: rgb(242, 242, 242);
   margin: 0;
 }
 
@@ -23,6 +23,7 @@ body {
 .intro-header-pic-container {
   display: flex;
   height: 240px;
+  width: 240px;
   margin-left: 60px; 
 }
 
